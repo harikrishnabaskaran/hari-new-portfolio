@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Haran</title>
+ <!-- Glowing Blue Circle Favicon with 3 Larger Yellow Circles -->
+    <!-- <link
+      rel="icon"
+      href="data:image/svg+xml,
+      <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+        <defs>
+          <filter id='glow'>
+            <feGaussianBlur stdDeviation='3' result='blur'/>
+            <feMerge>
+              <feMergeNode in='blur'/>
+              <feMergeNode in='SourceGraphic'/>
+            </feMerge>
+          </filter>
+        </defs>
+        <circle cx='50' cy='50' r='40' fill='blue' filter='url(%23glow)' stroke='blue' stroke-width='9'/>
+        
+        <circle cx='38' cy='38' r='7' fill='yellow'/>
+        <circle cx='62' cy='50' r='6' fill='yellow'/>
+        <circle cx='50' cy='68' r='5' fill='yellow'/>
+      </svg>"
+    /> -->
+
+     <!-- Glowing Blue Circle Border Only -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,
+      <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+        <defs>
+          <filter id='glow'>
+            <feGaussianBlur stdDeviation='2.5' result='blur'/>
+            <feMerge>
+              <feMergeNode in='blur'/>
+              <feMergeNode in='SourceGraphic'/>
+            </feMerge>
+          </filter>
+        </defs>
+        <!-- Blue border only -->
+        <circle cx='50' cy='50' r='40' fill='none' stroke='blue' stroke-width='9' filter='url(%23glow)'/>
+      </svg>"
+    />
+  </head>
+  <body class="bg-gray-950 text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
