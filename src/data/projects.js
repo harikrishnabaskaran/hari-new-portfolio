@@ -1,10 +1,42 @@
+//Front Images
+import stwFront from "../assets/stw/front.png";
+import erpFront from "../assets/erp/loginFull.png";
+import folioFront from "../assets/folio/home.png";
+import mediaFront from "../assets/media/front.png";
+
+// Project Data STW
+
+import homecards from "../assets/stw/homecards.png";
+import categoryProduct from "../assets/stw/categoryProduct.png";
+import singleproduct from "../assets/stw/singleproduct.png";
+import cart from "../assets/stw/cart.png";
+
+// Project Data ERP
+import createuser from "../assets/erp/createuser.png";
+import servicebill from "../assets/erp/servicebill.png";
+import inventory_d from "../assets/erp/inventory_d.png";
+import report from "../assets/erp/report.png";
+
+// Project Data Portfolio
+import projectskills from "../assets/folio/projectskills.png";
+import projectdetails from "../assets/folio/projectdetails.png";
+import contact from "../assets/folio/contact.png";
+
+// Project Data Media
+import home from "../assets/media/home.png";
+import gallery_counts from "../assets/media/gallery_counts.png";
+import about from "../assets/media/about.png";
+import blog_footer from "../assets/media/blog_footer.png";
+
+
 export const projects = [
   {
     title: "E-Commerce",
     desc: "Scalable e-commerce platform with seamless shopping experience.",
     // desc: "A modern shopping platform.",
     // hyperlink: "https://shoptheworld.in/",
-    img: "../../src/assets/stw/front.png",
+    // img: "../../src/assets/stw/front.png",
+    img: stwFront,
     link: "/project-details",
     // details: {
     //   images: [
@@ -21,7 +53,7 @@ export const projects = [
     details: {
       sections: [
         {
-          image: "../../src/assets/stw/homecards.png",
+          image: homecards,
           points: [
             "Designed and developed a clean landing page that highlights featured products with a user-friendly and engaging layout.",
             "Implemented pure CSS for modern styling, responsive layouts, and smooth hover animations without external frameworks.",
@@ -29,14 +61,14 @@ export const projects = [
           ],
         },
         {
-          image: "../../src/assets/stw/categoryProduct.png",
+          image: categoryProduct,
           points: [
             "Optimized page performance by refining CSS selectors and reducing unnecessary styling overhead.",
             "Designed interactive category cards with responsive scaling and improved load performance with optimized CSS selectors and structure.",
           ],
         },
         {
-          image: "../../src/assets/stw/singleproduct.png",
+          image: singleproduct,
           points: [
             "Designed a detailed product page with an emphasis on images, pricing, and descriptive content to guide purchase decisions.",
             "Migrated the product detail UI into a mobile-first design, ensuring usability across all screen sizes.",
@@ -44,7 +76,7 @@ export const projects = [
           ],
         },
         {
-          image: "../../src/assets/stw/cart.png",
+          image: cart,
           points: [
             "Built an interactive shopping cart that updates product quantities and totals dynamically for user convenience.",
             "Designed a responsive cart structure that adapts smoothly to small and large screen devices.",
@@ -57,12 +89,13 @@ export const projects = [
   {
     title: "ERP Application",
     desc: "Modern ERP system for billing, inventory tracking, and analytics insights.",
-    img: "../../src/assets/erp/loginFull.png",
+    // img: "../../src/assets/erp/loginFull.png",
+    img: erpFront,
     link: "/project-details",
     details: {
       sections: [
         {
-          image: "../../src/assets/erp/createuser.png",
+          image: createuser,
           points: [
             "Designed and developed a secure user creation form with full validation support.",
             "Implemented backend APIs for handling user registration and role-based access control.",
@@ -70,7 +103,7 @@ export const projects = [
           ],
         },
         {
-          image: "../../src/assets/erp/servicebill.png",
+          image: servicebill,
           points: [
             "Added autofill functionality to fetch and populate customer details based on mobile number input.",
             "Developed backend services to generate invoices and calculate taxes automatically.",
@@ -79,7 +112,7 @@ export const projects = [
           ],
         },
         {
-          image: "../../src/assets/erp/inventory_d.png",
+          image: inventory_d,
           points: [
             "Designed an intuitive dashboard to manage stock, add items, and track availability.",
             "Implemented backend logic for single and bulk stock uploads and database synchronization.",
@@ -88,7 +121,7 @@ export const projects = [
           ],
         },
         {
-          image: "../../src/assets/erp/report.png",
+          image: report,
           points: [
             "Built a reporting module allowing users to filter data by custom date range.",
             "Developed backend logic to generate reports with analytics and sales insights.",
@@ -104,15 +137,16 @@ export const projects = [
     title: "Portfolio",
     desc: "Personal portfolio highlighting skills, projects, and expertise.",
     // desc: "Personal showcase website.",
-    img: "../../src/assets/folio/home.png",
+    // img: "../../src/assets/folio/home.png",
+    img: folioFront,
     link: "/project-details",
         details: {
       sections: [
         {
         images: [
-          "../../src/assets/folio/projectskills.png",
-          "../../src/assets/folio/projectdetails.png",
-          "../../src/assets/folio/contact.png",
+          projectskills,
+          projectdetails,
+          contact,
         ],
         points: [
           "Developed a fully responsive personal portfolio using React.js and Tailwind CSS.",
@@ -131,12 +165,13 @@ export const projects = [
     title: "Media / Photography Website",
     desc: "Professional showcase website for media and photography projects.",
     // desc: "Personal showcase website.",
-    img: "../../src/assets/media/front.png",
+    // img: "../../src/assets/media/front.png",
+    img: mediaFront,
     link: "/project-details",
         details: {
       sections: [
         {
-          image: "../../src/assets/media/home.png",
+          image: home,
           points: [
             "Designed and developed a responsive landing page showcasing featured photography work effectively.",
             "Implemented modern UI layout with clean HTML structure and CSS styling techniques.",
@@ -145,7 +180,7 @@ export const projects = [
           ],
         },
         {
-          image: "../../src/assets/media/gallery_counts.png",
+          image: gallery_counts,
           points: [
             "Created a gallery page displaying photography images with grid-based HTML and CSS.",
             "Added animated counters to showcase statistics like total photos, clients, and projects.",
@@ -154,7 +189,7 @@ export const projects = [
           ],
         },
         {
-          image: "../../src/assets/media/about.png",
+          image: about,
           points: [
             "Built a professional about page introducing photographer's background, skills, and services.",
             "Structured content with semantic HTML tags for accessibility and SEO-friendly design.",
@@ -163,7 +198,7 @@ export const projects = [
           ],
         },
         {
-          image: "../../src/assets/media/blog_footer.png",
+          image: blog_footer,
           points: [
             "Developed blog section with posts layout to share photography insights and experiences.",
             "Added footer with essential links, copyright information, and contact details.",
