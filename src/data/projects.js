@@ -8,8 +8,8 @@ import mediaFront from "../assets/media/front.png";
 
 import homecards from "../assets/stw/homecards.png";
 import categoryProduct from "../assets/stw/categoryProduct.png";
-import singleproduct from "../assets/stw/singleproduct.png";
 import cart from "../assets/stw/cart.png";
+import singleproduct from "../assets/stw/singleproduct.png";
 
 // Project Data ERP
 import createuser from "../assets/erp/createuser.png";
