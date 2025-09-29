@@ -18,7 +18,6 @@ export const projects = [
     //     "Responsive design for all devices",
     //   ],
     // },
-    
     details: {
       sections: [
         {
