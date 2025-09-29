@@ -9,7 +9,7 @@ import mediaFront from "../assets/media/front.png";
 import homecards from "../assets/stw/homecards.png";
 import categoryProduct from "../assets/stw/categoryProduct.png";
 import cart from "../assets/stw/cart.png";
-import singleproduct from "../assets/stw/singleproduct.png";
+// import singleproduct from "../assets/stw/singleproduct.png";
 
 // Project Data ERP
 import createuser from "../assets/erp/createuser.png";
@@ -68,7 +68,8 @@ export const projects = [
           ],
         },
         {
-          image: singleproduct,
+          image: "../../src/assets/stw/singleproduct.png",
+          // image: singleproduct,
           points: [
             "Designed a detailed product page with an emphasis on images, pricing, and descriptive content to guide purchase decisions.",
             "Migrated the product detail UI into a mobile-first design, ensuring usability across all screen sizes.",
