@@ -33,6 +33,7 @@
 // import Skills from "./components/Skills";
 // import Experience from "./components/Experience";
 // import Contact from "./components/Contact";
+import { Analytics } from "@vercel/analytics/next"
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
@@ -75,6 +76,7 @@ export default function App() {
             <Route path="/project-details" element={<ProjectDetails />} />
           </Routes>
         </div>
+      <Analytics />
       </Router>
     </ThemeProvider>
   );
