@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
-
+import { useTranslation } from "react-i18next";
 export default function About() {
+    const { t } = useTranslation();
   return (
     <section
       id="about"
@@ -15,15 +16,13 @@ export default function About() {
         className="text-3xl md:text-5xl font-bold mb-8 
                    text-gray-900 dark:text-white"
       >
-        About Me
+       {t("aboutme")}
       </motion.h2>
 
       <p className="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed 
                    text-gray-700 dark:text-gray-300 
                    transition-colors duration-500">
-        I’m a passionate developer focused on creating interactive and
-        responsive web applications. With a strong eye for design and modern
-        technologies, I love building projects that make an impact.
+     {t("aboutmepara")}
       </p>
     </section>
   );

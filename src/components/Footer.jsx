@@ -11,7 +11,7 @@ export default function Footer() {
       {/* Social Icons (Left Corner) */}
       <div className="flex gap-4">
         <a
-          href="https://github.com/Haran03"
+          href="https://github.com/harikrishnabaskaran"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition"
@@ -19,7 +19,7 @@ export default function Footer() {
           <FaGithub size={24} />
         </a>
         <a
-          href="https://linkedin.com/in/haran-g-r-b63210222"
+          href="https://www.linkedin.com/in/harikrishna-baskaran-1a9022211/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition"
@@ -30,7 +30,7 @@ export default function Footer() {
 
       {/* Copyright (Center) */}
       <p className="text-sm">
-        © {new Date().getFullYear()} Haran. All Rights Reserved.
+        © {new Date().getFullYear()} Hari Krishna. All Rights Reserved.
       </p>
 
       {/* Empty div for spacing right side */}

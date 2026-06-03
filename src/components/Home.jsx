@@ -1,9 +1,10 @@
-import profileImg from "../assets/profilea.png";
+import profileImg from "../assets/Hari3.png";
 import resumePDF from "../assets/HaranGR.pdf"; // place your resume in assets
 
 import { motion } from "framer-motion";
-
+import { useTranslation } from "react-i18next";
 export default function Home() {
+  const { t } = useTranslation();
   return (
     <section
       id="home"
@@ -15,9 +16,9 @@ export default function Home() {
       {/* Left Content */}
       
       <div className="md:flex-1 space-y-6">
-        <h1 className="text-5xl font-bold">Hi, I'm Haran 👋</h1>
+        <h1 className="text-3xl font-bold"> {t("name")} 👋</h1>
         <p className="text-lg text-gray-600 dark:text-gray-300">
-          A passionate developer building modern, responsive web apps.
+          {t("header")}
         </p>
 
         <div className="flex sm:flex-row gap-4 justify-center md:justify-start">
@@ -27,7 +28,7 @@ export default function Home() {
             className="px-6 py-3 bg-blue-500 hover:bg-blue-600 
                        rounded-lg text-white font-medium shadow-md transition"
           >
-            View My Work
+        {t("workbtn")}
           </a>
 
           {/* View Resume (Animated) */}
@@ -43,7 +44,7 @@ export default function Home() {
                        font-medium shadow-md transition 
                        hover:shadow-blue-500/50"
           >
-            View Resume
+          {t("resumebtn")}
           </motion.a>
         </div>
       </div>
@@ -53,17 +54,18 @@ export default function Home() {
   <div
     className="w-72 h-72 md:w-96 md:h-96 rounded-full relative flex items-center justify-center"
     style={{
-      boxShadow: "0 0 40px rgba(59,130,246,0.6), inset 0 0 20px rgba(59,130,246,0.3)",
+      boxShadow:
+        "0 0 40px rgba(59,130,246,0.6), inset 0 0 20px rgba(59,130,246,0.3)",
     }}
   >
-    {/* Profile Image */}
     <img
       src={profileImg}
       alt="Profile"
-      className="w-72 h-72 md:w-96 md:h-96 rounded-full object-cover"
+      className="w-72 h-72 md:w-96 md:h-96 rounded-full object-cover object-top"
     />
   </div>
 </div>
+
 
 
 
@@ -88,9 +90,9 @@ export default function Home() {
 //     >
 //       {/* Left Content */}
 //       <div className="flex-1 space-y-6">
-//         <h1 className="text-5xl font-bold">Hi, I'm Haran 👋</h1>
+//         <h1 className="text-5xl font-bold">Hi, I'm Hari Krishna 👋</h1>
 //         <p className="text-lg text-gray-600 dark:text-gray-300">
-//           A passionate developer building modern, responsive web apps.
+//           A passionate software engineer building modern, efficient, and high-performance web applications.
 //         </p>
 //         <a
 //           href="#projects"

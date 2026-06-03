@@ -1,6 +1,6 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
-
+import { useTranslation } from "react-i18next";
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -39,14 +39,14 @@ export default function Contact() {
         }
       );
   };
-
+const { t } = useTranslation();
   return (
     <section
       id="contact"
       className="py-20 px-6 md:px-16 text-center bg-gray-100 dark:bg-gray-900"
     >
       <h2 className="text-3xl md:text-5xl font-bold mb-8 text-gray-900 dark:text-white">
-        Contact Me
+        {t("ContactHeading")}
       </h2>
 
       <form
@@ -56,7 +56,7 @@ export default function Contact() {
         <input
           type="text"
           name="name"
-          placeholder="Your Name"
+          placeholder=  {t("Yourname")}
           value={formData.name}
           onChange={handleChange}
           required
@@ -66,7 +66,7 @@ export default function Contact() {
         <input
           type="email"
           name="email"
-          placeholder="Your Email"
+          placeholder={t("Youremail")}
           value={formData.email}
           onChange={handleChange}
           required
@@ -77,7 +77,7 @@ export default function Contact() {
         <textarea
           name="message"
           rows="5"
-          placeholder="Your Message"
+          placeholder={t("Yourmessage")}
           value={formData.message}
           onChange={handleChange}
           required
@@ -88,7 +88,7 @@ export default function Contact() {
           type="submit"
           className="w-full py-3 bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-lg"
         >
-          Send Message
+         {t("Sendmessage")}
         </button>
 
         {status && <p className="mt-4 text-gray-700 dark:text-gray-300">{status}</p>}

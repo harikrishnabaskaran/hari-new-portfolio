@@ -1,0 +1,5 @@
+/* Increase width of timeline content */
+.vertical-timeline-element {
+  max-width: 800px;   /* adjust as needed */
+  width: 100%;
+}

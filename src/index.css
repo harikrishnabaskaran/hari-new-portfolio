@@ -102,3 +102,115 @@ html, body {
 .text-l{
   font-size: large;
 }
+
+
+
+/* Base timeline fixes */
+.custom-timeline {
+  width: 100%;
+}
+
+/* Card styling */
+.timeline-card {
+  background: #2196f3 !important;
+  color: #fff;
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Icon styling */
+.timeline-icon {
+  background: #2196f3 !important;
+  color: #fff;
+}
+
+/* Text */
+.timeline-card .title {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.timeline-card .company {
+  font-size: 15px;
+  opacity: 0.9;
+  margin-bottom: 8px;
+}
+
+.timeline-card ul {
+  padding-left: 16px;
+  font-size: 15px;
+}
+
+.timeline-card .date {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+/* ---------------- MOBILE ---------------- */
+@media (max-width: 768px) {
+  .vertical-timeline::before {
+    left: 20px !important;
+  }
+
+  .vertical-timeline-element {
+    padding-left: 40px !important;
+  }
+
+  .vertical-timeline-element-icon {
+    width: 30px;
+    height: 30px;
+    left: 5px !important;
+  }
+
+  .vertical-timeline-element-content {
+    margin-left: 0 !important;
+  }
+
+  .timeline-card {
+    padding: 16px;
+    font-size: 14px;
+  }
+}
+
+/* ---------------- SMALL MOBILE ---------------- */
+@media (max-width: 480px) {
+  .timeline-card {
+    padding: 14px;
+  }
+
+  .timeline-card .title {
+    font-size: 16px;
+  }
+
+  .timeline-card ul {
+    font-size: 13px;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .vertical-timeline::before {
+    left: 32px !important;
+  }
+
+  .vertical-timeline-element {
+    padding-left: 40px !important;
+  }
+
+  .vertical-timeline-element-content {
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+
+  .vertical-timeline-element-icon {
+    left: 0 !important;
+    width: 30px;
+    height: 30px;
+  }
+}
