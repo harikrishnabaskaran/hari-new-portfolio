@@ -18,14 +18,14 @@ export default function Contact() {
 
     emailjs
       .send(
-        "service_hxy4506", // 🔹 Replace with your Service ID
-        "template_2hccmqd", // 🔹 Replace with your Template ID
+        "service_dqdu0f2", // 🔹 Replace with your Service ID
+        "template_8pb4v8o", // 🔹 Replace with your Template ID
         {
           name: formData.name,
           from_email: formData.email,
           message: formData.message,
         },
-        "PSo-gStGkQlQCbHmr" // 🔹 Replace with your Public Key
+        "33J3VRR3BUolIUiJz" // 🔹 Replace with your Public Key
       )
       .then(
         (result) => {
@@ -43,15 +43,15 @@ const { t } = useTranslation();
   return (
     <section
       id="contact"
-      className="py-20 px-6 md:px-16 text-center bg-gray-100 dark:bg-gray-900"
+      className="px-6 py-20 text-center bg-gray-100 md:px-16 dark:bg-gray-900"
     >
-      <h2 className="text-3xl md:text-5xl font-bold mb-8 text-gray-900 dark:text-white">
+      <h2 className="mb-8 text-3xl font-bold text-gray-900 md:text-5xl dark:text-white">
         {t("ContactHeading")}
       </h2>
 
       <form
         onSubmit={handleSubmit}
-        className="max-w-2xl mx-auto bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg space-y-6"
+        className="max-w-2xl p-8 mx-auto space-y-6 bg-white shadow-lg dark:bg-gray-800 rounded-2xl"
       >
         <input
           type="text"
