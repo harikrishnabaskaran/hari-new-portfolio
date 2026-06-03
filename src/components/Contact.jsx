@@ -60,7 +60,7 @@ const { t } = useTranslation();
           value={formData.name}
           onChange={handleChange}
           required
-          className="w-full p-4 rounded-lg border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 focus:ring-2 focus:ring-blue-500"
+          className="w-full p-4 border border-gray-300 rounded-lg dark:border-gray-600 bg-gray-50 dark:bg-gray-700 focus:ring-2 focus:ring-blue-500"
         />
 
         <input
@@ -70,7 +70,7 @@ const { t } = useTranslation();
           value={formData.email}
           onChange={handleChange}
           required
-          className="w-full p-4 rounded-lg border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 focus:ring-2 focus:ring-blue-500"
+          className="w-full p-4 border border-gray-300 rounded-lg dark:border-gray-600 bg-gray-50 dark:bg-gray-700 focus:ring-2 focus:ring-blue-500"
             
         />
 
@@ -81,12 +81,12 @@ const { t } = useTranslation();
           value={formData.message}
           onChange={handleChange}
           required
-          className="w-full p-4 rounded-lg border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-700 focus:ring-2 focus:ring-blue-500"
+          className="w-full p-4 border border-gray-300 rounded-lg dark:border-gray-600 bg-gray-50 dark:bg-gray-700 focus:ring-2 focus:ring-blue-500"
         ></textarea>
 
         <button
           type="submit"
-          className="w-full py-3 bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-lg"
+          className="w-full py-3 font-semibold text-white bg-blue-500 rounded-lg hover:bg-blue-600"
         >
          {t("Sendmessage")}
         </button>
