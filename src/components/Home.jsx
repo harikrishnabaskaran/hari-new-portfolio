@@ -1,5 +1,5 @@
 import profileImg from "../assets/Hari3.png";
-import resumePDF from "../assets/HaranGR.pdf"; // place your resume in assets
+import resumePDF from "../assets/Harikrishna_Baskaran_CV.pdf"; // place your resume in assets
 
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
