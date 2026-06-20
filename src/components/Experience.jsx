@@ -1,7 +1,7 @@
 // export default function Experience() {
 //   return (
-//     <section className="p-8 max-w-4xl mx-auto">
-//       <h2 className="text-3xl font-bold mb-4">Experience</h2>
+//     <section className="max-w-4xl p-8 mx-auto">
+//       <h2 className="mb-4 text-3xl font-bold">Experience</h2>
 //       <div className="space-y-4">
 //         <div>
 //           <h3 className="text-xl font-semibold">Software Engineer @ Shop The World E-Commerce Private Limited </h3>
@@ -26,9 +26,8 @@ export default function Experience() {
   const { t } = useTranslation();
 
   return (
-    <section className="p-8 max-w-5xl mx-auto">
-      <h2 className="text-3xl md:text-5xl font-bold mb-8 
-                   text-gray-900 dark:text-white text-center">
+    <section className="max-w-5xl p-8 mx-auto">
+      <h2 className="mb-8 text-3xl font-bold text-center text-gray-900 md:text-5xl dark:text-white">
         {t("experience")}
       </h2>
   <VerticalTimeline
@@ -60,11 +59,11 @@ export default function Experience() {
     <h3 className="text-lg font-bold">
       {t("roleFreelancer")}
     </h3>
-    <h4 className="text-md opacity-90 mb-2 font-bold">
+    <h4 className="mb-2 font-bold text-md opacity-90">
       {t("company1")}
     </h4>
 
-    <ul className="list-disc list-inside text-md space-y-1">
+    <ul className="space-y-1 list-disc list-inside text-md">
       <li>{t("bullet1")}</li>
       <li>{t("bullet2")}</li>
       <li>{t("bullet3")}</li>
@@ -101,11 +100,11 @@ export default function Experience() {
     <h3 className="text-lg font-bold">
       {t("roleSoftwareEngineer")}
     </h3>
-    <h4 className="text-md opacity-90 font-bold mb-2">
+    <h4 className="mb-2 font-bold text-md opacity-90">
       {t("company2")}
     </h4>
 
-    <ul className="list-disc list-inside text-md space-y-1">
+    <ul className="space-y-1 list-disc list-inside text-md">
       <li>{t("bullet5")}</li>
       <li>{t("bullet6")}</li>
       <li>{t("bullet7")}</li>
@@ -117,6 +116,8 @@ export default function Experience() {
   </VerticalTimelineElement>
 
   {/* Trainee */}
+
+  
   <VerticalTimelineElement
     position="left"
     date="Mar 2024 - May 2024"
@@ -141,11 +142,11 @@ export default function Experience() {
     <h3 className="text-lg font-bold">
       {t("roleTraineeSoftwareEngineer")}
     </h3>
-    <h4 className="text-md opacity-90 font-bold mb-2">
+    <h4 className="mb-2 font-bold text-md opacity-90">
       {t("company3")}
     </h4>
 
-    <ul className="list-disc list-inside text-md space-y-1">
+    <ul className="space-y-1 list-disc list-inside text-md">
       <li>{t("bullet8")}</li>
       <li>{t("bullet9")}</li>
       <li>{t("bullet10")}</li>
