@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 export default function Languages() {
   const languages = [
     {
-      name: "English",
+      name: "English – C1 (CEFR)",
       level: 90,
       proficiency: "Professional Working Proficiency",
     },
