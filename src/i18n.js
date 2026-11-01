@@ -13,6 +13,7 @@ i18n.use(initReactI18next).init({
         Experience: "Experience",
         Education: "Education",
         Contact: "Contact",
+        Languages: "Languages",
 
         name: "Hi, I'm Hari Krishna",
         header:
@@ -23,12 +24,13 @@ i18n.use(initReactI18next).init({
         //About me
         aboutme: "About me",
         aboutmepara:
-          "I am a Software Engineer with 2 years of professional experience in software development, specializing in React.js, Node.js, Python, and modern web technologies. Currently pursuing a Master's in Robotics and Autonomous Systems at the University of Lübeck, Germany, I am passionate about building scalable software, optimizing performance, and solving real-world problems through technology. With a strong foundation in software engineering and a growing interest in robotics, artificial intelligence, and autonomous systems, I am actively seeking a Werkstudent opportunity in Germany where I can contribute my technical expertise, gain hands-on industry experience, and further develop my skills in innovative and technology-driven environments.",
+          "I am a Full-Stack Software Engineer with 2 years of professional experience in developing scalable web applications using React.js, Node.js, Python, and modern technologies. My expertise includes frontend and backend development, API integration, database management, and performance optimization. I am expanding my skills in Artificial Intelligence, focusing on LLM integration, Retrieval-Augmented Generation (RAG), and Agentic AI to build intelligent, automation-driven applications. Currently pursuing an M.Sc. in Robotics and Autonomous Systems at the University of Lübeck, Germany, I am passionate about combining software engineering, AI, and robotics to solve real-world challenges. I am actively seeking a Werkstudent opportunity where I can contribute my technical expertise while growing in AI-driven software development and autonomous systems.",
 
-        //skills
-        skills: "skills",
-
+        
+technicalSkills: "Technical Skills",
+language: "Language",
         projects:"Projects",
+
 
         //Experience
         experience: "Experience",
@@ -188,6 +190,51 @@ i18n.use(initReactI18next).init({
         mediapoint15:
           "Styled blog and footer using CSS for a cohesive professional appearance.",
 
+        // SupportDesk Overview
+        supportdeskpoint1:"Built a responsive dashboard tracking ticket statuses and customer totals.",
+        supportdeskpoint2:"Visualized seven-day ticket activity and category distribution using interactive charts.",
+        supportdeskpoint3:"Displayed recent conversations with quick access to ticket details.",
+        supportdeskpoint4:"Added ticket creation shortcuts and an Ollama connection status indicator.",
+
+
+        // SupportDesk TicketBox
+        supportdeskpoint5:"Implemented ticket management with categories, priorities, statuses, and due dates.",
+        supportdeskpoint6:"Added search, filtering, sorting and pagination to organize support requests.",
+        supportdeskpoint7:"Provided list and Kanban views for tracking ticket progress.",
+        supportdeskpoint8:"Centralized ticket details, customer conversations and reply drafts.",
+
+
+        // SupportDesk Customers
+        supportdeskpoint9:"Automatically created customer records when new tickets were submitted.",
+        supportdeskpoint10:"Enabled customer search by name or email address.",
+        supportdeskpoint11:"Displayed total tickets, active requests and first-contact dates for each customer.",
+        supportdeskpoint12:"Added direct navigation from customer records to their associated tickets.",
+
+        // SupportDesk Knowledge base
+        supportdeskpoint13:"Built article management with categories and draft or published states.",
+        supportdeskpoint14:"Supported PDF, DOCX, TXT and Markdown document uploads with input validation.",
+        supportdeskpoint15:"Processed documents through text extraction, chunking and Ollama embedding generation.",
+        supportdeskpoint16:"Stored source content in MongoDB and indexed embeddings in Qdrant for RAG retrieval.",
+
+        // SupportDesk Report and insights
+        supportdeskpoint17:"Calculated resolution rates, weekly ticket volumes and urgent-ticket totals.",
+        supportdeskpoint18:"Visualized opened and resolved tickets over the previous seven days.",
+        supportdeskpoint19:"Displayed category and priority distributions through interactive charts.",
+        supportdeskpoint20:"Presented queue health through ticket statuses and overdue-request indicators.",
+
+
+        // SupportDesk AI Workspace
+        supportdeskpoint21:"Integrated a local Ollama LLM for natural-language support queries and ticket management.",
+        supportdeskpoint22:"Developed a single-agent execution loop with native tool calling and result observation.",
+        supportdeskpoint23:"Generated document-grounded answers using RAG, hybrid retrieval and source citations.",
+        supportdeskpoint24:"Added conversation memory and approval flows for sensitive ticket changes.",
+
+        // SupportDesk Agent activity
+        supportdeskpoint25:"Recorded agent tool calls with execution statuses and timestamps.",
+        supportdeskpoint26:"Provided expandable records displaying tool arguments and observed results.",
+        supportdeskpoint27:"Made failed operations and approval requests visible for troubleshooting.",
+        supportdeskpoint28:"Added paginated activity history and manual refresh for reviewing agent actions.",
+
         //contact
         ContactHeading: "Contact",
         Yourname: "Your name",
@@ -208,6 +255,7 @@ i18n.use(initReactI18next).init({
         Home: "Startseite",
         About: "Über mich",
         Skills: "Fähigkeiten",
+        Languages:"Sprachen",
         Projects: "Projekte",
         Experience: "Berufserfahrung",
         Education: "Ausbildung",
@@ -222,12 +270,14 @@ i18n.use(initReactI18next).init({
         //About me
         aboutme: "Über mich",
         aboutmepara:
-          "Als Softwareentwickler mit zweijähriger Berufserfahrung und Schwerpunkt auf React.js, Node.js, Python sowie modernen Webtechnologien absolviere ich derzeit ein Masterstudium im Bereich Robotik und Autonome Systeme an der Universität zu Lübeck. Ich begeistere mich für die Entwicklung skalierbarer Software, die Optimierung der Performance sowie die technologische Lösung praxisrelevanter Probleme. Mit einer fundierten Basis in der Softwareentwicklung und einem wachsenden Interesse an Robotik, künstlicher Intelligenz und autonomen Systemen suche ich aktiv nach einer Werkstudententätigkeit in Deutschland. Dabei möchte ich meine technische Expertise einbringen, praktische Erfahrungen in der Branche sammeln und meine Fähigkeiten in einem innovativen, technologieorientierten Umfeld weiterentwickeln.",
+          "Ich bin Full-Stack-Softwareentwickler mit zwei Jahren Berufserfahrung in der Entwicklung skalierbarer Webanwendungen mit React.js, Node.js, Python und modernen Technologien. Meine Fachkenntnisse umfassen Frontend- und Backend-Entwicklung, API-Integration, Datenbankmanagement und Performance-Optimierung. Derzeit erweitere ich meine Kenntnisse im Bereich der Künstlichen Intelligenz, insbesondere in der Integration von Large Language Models (LLMs), Retrieval-Augmented Generation (RAG) und Agentic AI, um intelligente und automatisierte Anwendungen zu entwickeln. Aktuell absolviere ich ein Masterstudium in Robotik und Autonomen Systemen an der Universität zu Lübeck. Ich begeistere mich dafür, Softwareentwicklung, Künstliche Intelligenz und Robotik miteinander zu verbinden, um reale Herausforderungen zu lösen. Ich suche aktiv eine Werkstudententätigkeit in Deutschland, bei der ich meine technischen Fähigkeiten einbringen und gleichzeitig meine Kenntnisse in KI-gestützter Softwareentwicklung und autonomen Systemen weiterentwickeln kann.",
 
-        //skills
-        skills: "Fähigkeiten",
+        
+        technicalSkills: "Technische Kenntnisse",
 
         projects:"Projekte",
+
+      languages:"Sprachen",
 
         // experience
         experience: "Berufserfahrung",
@@ -386,6 +436,51 @@ i18n.use(initReactI18next).init({
           "Footer mit wichtigen Links, Copyright-Informationen und Kontaktdaten hinzugefügt.",
         mediapoint15:
           "Blog und Footer mit CSS für ein einheitliches, professionelles Erscheinungsbild gestaltet.",
+
+
+          //Support AI
+          
+// SupportDesk Overview
+supportdeskpoint1: "Responsives Dashboard zur Überwachung von Ticketstatus und Kundenzahlen entwickelt.",
+supportdeskpoint2: "Ticketaktivitäten der letzten sieben Tage und Kategorieverteilung mit interaktiven Diagrammen visualisiert.",
+supportdeskpoint3: "Aktuelle Kundengespräche mit schnellem Zugriff auf Ticketdetails angezeigt.",
+supportdeskpoint4: "Schnellzugriff zur Ticketerstellung und eine Ollama-Verbindungsstatusanzeige integriert.",
+
+// SupportDesk TicketBox
+supportdeskpoint5: "Erstellung und Bearbeitung von Tickets mit Kategorien, Prioritäten, Status und Fälligkeitsdaten implementiert.",
+supportdeskpoint6: "Such-, Filter-, Sortier- und Paginierungsfunktionen zur Organisation von Supportanfragen hinzugefügt.",
+supportdeskpoint7: "Listen- und Kanban-Ansichten zur Verfolgung des Ticketfortschritts bereitgestellt.",
+supportdeskpoint8: "Ticketdetails, Kundengespräche und Antwortentwürfe zentral verwaltet.",
+
+// SupportDesk Customers
+supportdeskpoint9: "Kundendatensätze bei der Erstellung neuer Tickets automatisch angelegt.",
+supportdeskpoint10: "Kundensuche nach Namen oder E-Mail-Adressen ermöglicht.",
+supportdeskpoint11: "Gesamtzahl der Tickets, aktive Anfragen und Datum des Erstkontakts für jeden Kunden angezeigt.",
+supportdeskpoint12: "Direkte Navigation von Kundendatensätzen zu den zugehörigen Tickets integriert.",
+
+// SupportDesk Knowledge Base
+supportdeskpoint13: "Artikelverwaltung mit Kategorien sowie Entwurfs- und Veröffentlichungsstatus entwickelt.",
+supportdeskpoint14: "Upload von PDF-, DOCX-, TXT- und Markdown-Dokumenten mit Eingabevalidierung unterstützt.",
+supportdeskpoint15: "Dokumente durch Textextraktion, Chunking und Embedding-Generierung mit Ollama verarbeitet.",
+supportdeskpoint16: "Quelldaten in MongoDB gespeichert und Embeddings in Qdrant für die RAG-Suche indexiert.",
+
+// SupportDesk Reports and Insights
+supportdeskpoint17: "Lösungsquoten, wöchentliche Ticketvolumina und Anzahl dringender Tickets berechnet.",
+supportdeskpoint18: "Erstellte und gelöste Tickets der letzten sieben Tage visualisiert.",
+supportdeskpoint19: "Kategorie- und Prioritätsverteilungen durch interaktive Diagramme dargestellt.",
+supportdeskpoint20: "Ticketstatus und überfällige Anfragen zur Bewertung der Warteschlangenauslastung angezeigt.",
+
+// SupportDesk AI Workspace
+supportdeskpoint21: "Lokales Ollama-LLM für natürlichsprachliche Supportanfragen und Ticketverwaltung integriert.",
+supportdeskpoint22: "Ausführungsschleife für einen einzelnen KI-Agenten mit nativem Tool Calling und Ergebnisüberwachung entwickelt.",
+supportdeskpoint23: "Dokumentenbasierte Antworten mithilfe von RAG, hybrider Suche und Quellenangaben generiert.",
+supportdeskpoint24: "Konversationsspeicher und Genehmigungsprozesse für sensible Ticketänderungen hinzugefügt.",
+
+// SupportDesk Agent Activity
+supportdeskpoint25: "Tool-Aufrufe des KI-Agenten mit Ausführungsstatus und Zeitstempeln protokolliert.",
+supportdeskpoint26: "Ausklappbare Einträge zur Anzeige von Tool-Argumenten und Ausführungsergebnissen bereitgestellt.",
+supportdeskpoint27: "Fehlgeschlagene Vorgänge und Genehmigungsanfragen zur Fehleranalyse sichtbar gemacht.",
+supportdeskpoint28: "Paginierte Aktivitätshistorie und manuelle Aktualisierung zur Überprüfung von Agentenaktionen implementiert.",
 
         //contact
         ContactHeading: "Kontakt",
